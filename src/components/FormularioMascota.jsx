@@ -3,7 +3,7 @@ import { PET_FIELDS } from "../constants/fields";
 import { useVeterinaria } from "../context/VeterinariaContext";
 import { styles } from "../styles/common";
 import Button from "./Button";
-import Field from "./Field";
+import Field from "./Fields";
 export default function FormularioMascota() {
     const { form, setForm, clientes } = useVeterinaria();
     return (

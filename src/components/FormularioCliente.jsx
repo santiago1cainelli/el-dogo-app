@@ -1,6 +1,6 @@
 import { CLIENT_FIELDS } from "../constants/fields";
 import { useVeterinaria } from "../context/VeterinariaContext";
-import Field from "./Field";
+import Field from "./Fields";
 export default function FormularioCliente() {
     const { form, setForm } = useVeterinaria();
     return (
